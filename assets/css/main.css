@@ -1,0 +1,68 @@
+@font-face {
+  font-family: 'Apercu';
+  font-style: italic;
+  src: url('../fonts/Apercu-Italic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Apercu';
+  font-weight: 600;
+  src: url('../fonts/Apercu-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Apercu';
+  font-weight: 600;
+  font-style: italic;
+  src: url('../fonts/Apercu-MediumItalic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Apercu';
+  font-weight: bold;
+  src: url('../fonts/Apercu-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Apercu';
+  font-weight: bold;
+  font-style: italic;
+  src: url('../fonts/Apercu-BoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Apercu';
+  font-weight: lighter;
+  src: url('../fonts/Apercu-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Apercu';
+  font-weight: lighter;
+  font-style: italic;
+  src: url('../fonts/Apercu-LightItalic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Apercu';
+  src: url('../fonts/Apercu-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Have Heart One';
+  font-weight: normal;
+  src: url('../fonts/Have\ Heart\ One.ttf') format('truetype');
+}
+
+html,
+body,
+#app {
+  padding: 0;
+  margin: 0;
+  font-family: 'Apercu';
+  line-height: 1.75;
+}
+
+.stylish {
+  font-family: 'Have Heart One';
+}
