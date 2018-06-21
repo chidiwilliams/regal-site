@@ -1,38 +1,25 @@
-{% extends "layouts/app.njk" %}
+{% extends "layouts/post.njk" %}
 
 <!--  -->
 
-{% block content %}
-<div class="container">
-  <div class="row menu">
-    <div class="left-side">
-      <div class="light">13th</div>
-      <div class="stylish regal">Regal</div>
-      <div class="light">set of</div>
-      <div class="covenant">Covenant University</div>
-    </div>
-    <div class="middle-side">
-      <ul class="menu-list">
-        <li>
-          <a href="#">Jamboree</a>
-        </li>
-        <li>
-          <a href="#">White</a>
-        </li>
-        <li>
-          <a href="#">Final Year League</a>
-        </li>
-        <li>
-          <a href="#">T.T.G</a>
-        </li>
-        <li>
-          <a href="#">Yearbook</a>
-        </li>
-      </ul>
-    </div>
-    <div class="right-side">
-      <div class="menu">Menu</div>
-    </div>
-  </div>
+{% block contentMiddle %}
+<div class="menu-nav">
+  <ul class="menu-list">
+    <li>
+      <a href="./jamboree.html">Jamboree</a>
+    </li>
+    <li>
+      <a href="#">White</a>
+    </li>
+    <li>
+      <a href="#">Final Year League</a>
+    </li>
+    <li>
+      <a href="#">T.T.G</a>
+    </li>
+    <li>
+      <a href="#">Yearbook</a>
+    </li>
+  </ul>
 </div>
 {% endblock %}

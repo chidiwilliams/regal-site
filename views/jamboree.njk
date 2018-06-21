@@ -1,0 +1,30 @@
+{% extends "layouts/post.njk" %}
+
+<!--  -->
+
+{% block contentMiddle %}
+<div class="page-header">
+  <div class="title">Jamboree</div>
+  <div class="subtitle">From winning awards to bringing forth amazing innovations, this set has never ceased to amaze.</div>
+</div>
+
+<div class="page-body">
+  <div class="grid" id="jamboree-grid">
+    {% for i in range(24) %}
+      <div class="grid-item">
+        <a href="#">
+          <img class="grid-image" src="https://picsum.photos/200/300/?image={{ range(1, 50) | random }}" alt="">
+        </a>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+{% endblock %} {% block js %}
+<script>
+  $(function () {
+    $('#jamboree-grid').masonry({
+      itemSelector: '.grid-item',
+      isFitWidth: true
+    });
+  })
+</script> {% endblock %}

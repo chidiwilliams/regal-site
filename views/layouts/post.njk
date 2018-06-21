@@ -1,0 +1,22 @@
+{% extends "layouts/app.njk" %}
+
+{% block content %}
+<div class="container">
+  <div class="row menu">
+    <div class="menu-left-side">
+      <a href="./home.html" class="home">
+        <div class="stylish regal">Regal</div>
+        <div class="covenant">The 13th Set of Covenant University</div>
+      </a>
+    </div>
+    <div class="menu-middle-side">
+      {% block contentMiddle %}{% endblock %}
+    </div>
+    <div class="menu-right-side">
+      <div class="hamburger-menu">
+        <a href="#">Menu</a>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
