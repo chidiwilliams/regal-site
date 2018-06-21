@@ -16,9 +16,9 @@ gulp.task('build', function() {
 
 gulp.task('sass', function() {
   return gulp
-    .src('public/scss/**/*.scss')
+    .src('assets/scss/**/*.scss')
     .pipe(sass()) // Converts Sass to CSS with gulp-sass
-    .pipe(gulp.dest('out/public/css'));
+    .pipe(gulp.dest('out/assets/css'));
 });
 
 gulp.start('sass');

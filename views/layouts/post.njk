@@ -1,21 +1,23 @@
-{% extends "layouts/app.njk" %}
-
-{% block content %}
+{% extends "layouts/app.njk" %} {% block content %}
 <div class="container">
   <div class="row menu">
     <div class="menu-left-side">
+      {% block contentLeft %}
       <a href="./home.html" class="home">
         <div class="stylish regal">Regal</div>
         <div class="covenant">The 13th Set of Covenant University</div>
       </a>
+      {% endblock %}
     </div>
     <div class="menu-middle-side">
       {% block contentMiddle %}{% endblock %}
     </div>
     <div class="menu-right-side">
+      {% block contentRight %}
       <div class="hamburger-menu">
-        <a href="#">Menu</a>
+        <a href="./menu.html">Menu</a>
       </div>
+      {% endblock %}
     </div>
   </div>
 </div>

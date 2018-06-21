@@ -81,13 +81,13 @@ body,
     font-size: 40px;
     text-align: center; }
     .menu-middle-side ul.menu-list li {
-      margin-bottom: 25px; }
+      margin-bottom: 35px; }
       .menu-middle-side ul.menu-list li a {
         color: currentColor;
         text-decoration: none; }
         .menu-middle-side ul.menu-list li a:hover {
           border-bottom: 4px solid;
-          padding-bottom: 4px; }
+          padding-bottom: 5px; }
 
 .menu-right-side {
   flex: 0 120px; }
