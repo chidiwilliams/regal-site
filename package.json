@@ -1,7 +1,7 @@
 {
-  "name": "yearbook-site",
+  "name": "regal-site",
   "version": "1.0.0",
-  "description": "Yearbook HTML files",
+  "description": "Regal Set HTML files",
   "main": "index.js",
   "scripts": {
     "start": "nodemon -e js,njk,json,css app.js",
