@@ -58,11 +58,23 @@ body,
 
 .menu {
   color: #835388;
-  padding-top: 80px; }
+  padding-top: 30px; }
+  @media (min-width: 768px) {
+    .menu {
+      padding-top: 80px; } }
 
 .menu-left-side {
   color: #3b193e;
-  flex: 0 120px; }
+  flex: 1 100%;
+  text-align: left;
+  margin-bottom: 35px;
+  padding: 0 15px;
+  text-align: center; }
+  @media (min-width: 768px) {
+    .menu-left-side {
+      text-align: left;
+      margin: 0;
+      flex: 0 120px; } }
   .menu-left-side .regal {
     text-transform: uppercase;
     font-size: 35px; }
@@ -71,7 +83,10 @@ body,
     color: currentColor; }
 
 .menu-middle-side {
-  flex: auto; }
+  flex: 1 100%; }
+  @media (min-width: 768px) {
+    .menu-middle-side {
+      flex: auto; } }
   .menu-middle-side div.menu-nav {
     margin-bottom: 150px; }
   .menu-middle-side ul.menu-list {
@@ -92,21 +107,28 @@ body,
           padding-bottom: 5px; }
 
 .menu-right-side {
-  flex: 0 120px; }
-  .menu-right-side .hamburger-menu {
-    text-align: right; }
-    .menu-right-side .hamburger-menu a {
-      text-transform: uppercase;
-      text-decoration: none;
-      color: currentColor; }
-      .menu-right-side .hamburger-menu a:hover {
-        border-bottom: 2px solid currentColor; }
+  flex: 1 100%; }
+  @media (min-width: 768px) {
+    .menu-right-side {
+      flex: 0 120px; } }
+
+.hamburger-menu {
+  text-align: right; }
+  .hamburger-menu.hamburger-menu.hamburger-menu-special {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 10px; }
+  .hamburger-menu a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: currentColor; }
+    .hamburger-menu a:hover {
+      border-bottom: 2px solid currentColor; }
 
 .page-header {
   text-align: center;
-  max-width: 500px;
-  margin: auto;
-  margin-bottom: 50px; }
+  margin-bottom: 50px;
+  padding: 0 10px; }
   .page-header .title {
     font-size: 40px;
     text-transform: uppercase;
@@ -114,7 +136,12 @@ body,
     font-weight: 600;
     margin-bottom: 5px; }
   .page-header .subtitle {
-    font-size: 20px; }
+    font-size: 20px;
+    max-width: 450px;
+    margin: auto; }
+    @media (min-width: 992px) {
+      .page-header .subtitle {
+        max-width: 500px; } }
 
 .page-body .grid {
   visibility: visible;
