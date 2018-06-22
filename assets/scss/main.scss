@@ -70,8 +70,9 @@ body,
     padding: 0;
     text-transform: uppercase;
     font-weight: 600;
-    font-size: 40px;
+    font-size: 35px;
     text-align: center;
+    letter-spacing: 2px;
 
     li {
       margin-bottom: 35px;
@@ -128,6 +129,7 @@ body,
     text-align: center;
     font-weight: 600;
     margin-bottom: 5px;
+    letter-spacing: 2px;
   }
 
   .subtitle {
@@ -155,6 +157,8 @@ body,
     img.grid-image {
       border-radius: 3px;
       box-shadow: $box-shadow-image;
+      background-color: white;
+      padding: 8px;
     }
   }
 }
