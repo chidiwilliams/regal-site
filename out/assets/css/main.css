@@ -95,8 +95,9 @@ body,
     padding: 0;
     text-transform: uppercase;
     font-weight: 600;
-    font-size: 40px;
-    text-align: center; }
+    font-size: 35px;
+    text-align: center;
+    letter-spacing: 2px; }
     .menu-middle-side ul.menu-list li {
       margin-bottom: 35px; }
       .menu-middle-side ul.menu-list li a {
@@ -134,7 +135,8 @@ body,
     text-transform: uppercase;
     text-align: center;
     font-weight: 600;
-    margin-bottom: 5px; }
+    margin-bottom: 5px;
+    letter-spacing: 2px; }
   .page-header .subtitle {
     font-size: 20px;
     max-width: 450px;
@@ -152,7 +154,9 @@ body,
     margin: 10px; }
   .page-body .grid img.grid-image {
     border-radius: 3px;
-    box-shadow: 0 7px 30px #aaa; }
+    box-shadow: 0 7px 30px #aaa;
+    background-color: white;
+    padding: 8px; }
 
 div.fixed-footer {
   text-align: center;
