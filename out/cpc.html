@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>The Regal Set</title>
+  <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+
+<body>
+  <div id="app">
+    
+<div class="container">
+  <div class="row menu">
+    <div class="menu-left-side">
+      
+      <a href="./home.html" class="home">
+        <div class="stylish regal">Regal</div>
+        <div class="covenant">The 13th Set of Covenant University</div>
+      </a>
+
+      <div class="hamburger-menu hamburger-menu-special d-sm-block d-md-none">
+        <a href="./menu.html">Menu</a>
+      </div>
+      
+    </div>
+    <div class="menu-middle-side">
+      
+<div class="page-header">
+  <div class="title">The CPC Executives</div>
+  <div class="subtitle">The team that made things happen.</div>
+</div>
+
+<div class="page-body">
+  <div class="profiles">
+    
+    <div class="profile-card">
+      <div class="profile-image">
+        <img class="grey" src="https://picsum.photos/250/300/?image=1027" alt="">
+      </div>
+      <div class="profile-desc">
+        <div class="profile-name">Daniel Ifeanyi</div>
+        <div class="profile-post">Chairman</div>
+      </div>
+    </div>
+    
+    <div class="profile-card">
+      <div class="profile-image">
+        <img class="grey" src="https://picsum.photos/250/300/?image=1027" alt="">
+      </div>
+      <div class="profile-desc">
+        <div class="profile-name">Bovi Wali</div>
+        <div class="profile-post">Vice-Chair</div>
+      </div>
+    </div>
+    
+    <div class="profile-card">
+      <div class="profile-image">
+        <img class="grey" src="https://picsum.photos/250/300/?image=1027" alt="">
+      </div>
+      <div class="profile-desc">
+        <div class="profile-name">Synka Jyte-Davis</div>
+        <div class="profile-post">Vice-Chair</div>
+      </div>
+    </div>
+    
+    <div class="profile-card">
+      <div class="profile-image">
+        <img class="grey" src="https://picsum.photos/250/300/?image=1027" alt="">
+      </div>
+      <div class="profile-desc">
+        <div class="profile-name">David Ojimba</div>
+        <div class="profile-post">Executive Secretary</div>
+      </div>
+    </div>
+    
+    <div class="profile-card">
+      <div class="profile-image">
+        <img class="grey" src="https://picsum.photos/250/300/?image=1027" alt="">
+      </div>
+      <div class="profile-desc">
+        <div class="profile-name">Chidi D. Williams</div>
+        <div class="profile-post">Director, Projects</div>
+      </div>
+    </div>
+    
+    <div class="profile-card">
+      <div class="profile-image">
+        <img class="grey" src="https://picsum.photos/250/300/?image=1027" alt="">
+      </div>
+      <div class="profile-desc">
+        <div class="profile-name">Tobechukwu Olih</div>
+        <div class="profile-post">Assistant Director, Projects</div>
+      </div>
+    </div>
+    
+  </div>
+</div>
+
+    </div>
+    <div class="menu-right-side">
+      
+      <div class="hamburger-menu d-none d-md-block">
+        <a href="./menu.html">Menu</a>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+  </div>
+
+  <!-- Replace these with CDNs -->
+  <script src="./assets/js/jquery.min.js"></script>
+  <script src="./assets/js/bootstrap.min.js"></script>
+  <script src="./assets/js/masonry.pkgd.min.js"></script>
+
+  <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
+    crossorigin="anonymous"></script> -->
+
+  <script src="./assets/js/main.js"></script>
+  
+<script>
+  $(function () {
+    $("div.profile-card").hover(function (evt) {
+      $(this).addClass('big');
+      $(this).children("div.profile-image").children("img").addClass('normal');
+      $(this).children(".profile-desc").animate({
+        opacity: 1,
+      }, 500);
+    }, function () {
+      $(this).removeClass('big')
+      $(this).children(".profile-desc").animate({
+        opacity: 0,
+      }, 500);
+      $(this).children("div.profile-image").children("img").removeClass('normal');
+    });
+  })
+</script> 
+</body>
+
+</html>

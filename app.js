@@ -1,4 +1,5 @@
-const gulp = require('./gulpfile');
+const gulp = require('gulp');
+require('./gulpfile');
 
-gulp.start('sass');
-gulp.start('build');
+gulp.task('njk')();
+gulp.task('sass')();

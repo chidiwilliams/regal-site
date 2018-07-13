@@ -169,3 +169,43 @@ div.fixed-footer {
   color: #3b193e;
   width: 100%;
   background: #ffffff; }
+
+.profiles {
+  display: flex;
+  flex: 1 0 0;
+  flex-wrap: wrap;
+  max-width: 870px;
+  margin: auto; }
+  .profiles .profile-image img.grey {
+    -webkit-filter: grayscale(85%);
+    filter: grayscale(85%);
+    transition: all 0.5s ease-out; }
+  .profiles .profile-image img.normal {
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0); }
+
+.profile-card {
+  cursor: pointer;
+  width: 250px;
+  height: 300px;
+  box-shadow: 0 7px 30px #aaa;
+  position: relative;
+  margin: 20px;
+  overflow: hidden;
+  transition: all 0.5s ease-out; }
+  .profile-card.big {
+    transform: scale(1.01); }
+
+.profile-desc {
+  position: absolute;
+  bottom: 0;
+  opacity: 0;
+  color: #fff;
+  background: linear-gradient(#00000000 0%, #00000070 50%, #00000090 100%);
+  padding: 10px;
+  width: 100%; }
+  .profile-desc .profile-name {
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: -5px; }
